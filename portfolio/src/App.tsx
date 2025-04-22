@@ -3,7 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Photo from "./pages/Photo";
-import Digital from "./pages/Digital";
+import Computing from "./pages/Computing";
 import Detail from "./pages/Detail";
 import About from "./pages/About";
 import CV from "./pages/CV";
@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/photo" element={<Photo />}/>
-          <Route path="/digital" element={<Digital />}/>
+          <Route path="/computing" element={<Computing />}/>
           <Route path="/detail" element={<Detail />}/>
           <Route path="/about" element={<About />}/>
           <Route path="/cv" element={<CV />}/>
